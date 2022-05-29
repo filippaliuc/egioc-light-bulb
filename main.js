@@ -65,7 +65,7 @@ function init() {
 
     scene = new THREE.Scene();
 
-    const bulbGeometry = new THREE.SphereGeometry( 0.02, 16, 8 );
+    const bulbGeometry = new THREE.SphereGeometry( 0.15, 16, 8 );
     bulbLight = new THREE.PointLight( 0xffee88, 1, 100, 2 );
 
     bulbMat = new THREE.MeshStandardMaterial( {
